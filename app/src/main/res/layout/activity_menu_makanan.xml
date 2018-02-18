@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.example.com.adipurnomosidik_1202154134_modul2.MenuMakanan">
+
+
+    <ImageView
+        android:id="@+id/nasiGoreng"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/nasi_goreng"
+        android:onClick="shownasiGoreng"/>
+
+    <TextView
+        android:id="@+id/nasiGorengtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="39dp"
+        android:layout_toEndOf="@+id/nasiGoreng"
+        android:layout_toRightOf="@+id/nasiGoreng"
+        android:fontFamily="serif"
+        android:onClick="NasiGoreng"
+        android:text="Nasi Goreng"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/mierebus"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nasiGoreng"
+        android:onClick="showMie"
+        app:srcCompat="@drawable/mie" />
+
+    <TextView
+        android:id="@+id/mierebustxt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/ayamtxt"
+        android:layout_alignStart="@+id/ayamtxt"
+        android:layout_below="@+id/nasiGoreng"
+        android:layout_marginTop="29dp"
+        android:fontFamily="serif"
+        android:onClick="MieRebus"
+        android:text="Mie rebus"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/mendoan"
+        android:layout_width="150dp"
+        android:layout_height="350dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mierebus"
+        android:layout_marginTop="127dp"
+        android:onClick="showMendoan"
+        app:srcCompat="@drawable/mendoan" />
+
+    <TextView
+        android:id="@+id/mendoantxt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/mierebustxt"
+        android:layout_alignRight="@+id/mierebustxt"
+        android:layout_below="@+id/ayam"
+        android:layout_marginTop="18dp"
+        android:fontFamily="serif"
+        android:onClick="mendoan"
+        android:text="Mendoan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ayam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nasiGoreng"
+        android:layout_marginTop="87dp"
+        android:layout_toLeftOf="@+id/nasiGorengtxt"
+        android:layout_toStartOf="@+id/nasiGorengtxt"
+        android:onClick="showAyam"
+        app:srcCompat="@drawable/ayam" />
+
+    <TextView
+        android:id="@+id/ayamtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/nasiGorengtxt"
+        android:layout_alignRight="@+id/nasiGorengtxt"
+        android:layout_below="@+id/mierebus"
+        android:layout_marginTop="64dp"
+        android:text="Ayam Goreng"
+        android:onClick="ayam"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ADI PURNOMO SIDIK_1202154134_MODUL2</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="pilihan_menu">Pilihan Menu :</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+    <string name="Nama_NIM">Adi Purnomo Sidik_1202154134</string>
+    <string name="pilih_menu">Pilih Menu :</string>
+    <string name="nothing_selected">Nothing Selected!</string>
+    <string name="time_button">Time</string>
+    <string name="date_button">Date</string>
+
+    <string-array name="array_label">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+
+    <string name="time">Time:</string>
+    <string name="date">Date:</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
